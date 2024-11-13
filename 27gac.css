@@ -1,0 +1,15 @@
+.bodycor{
+    background-color: rgba(33, 91, 22, 0.748);
+}
+.introducao{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige;
+}
+.central{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige; width: 50%;
+}
+.center{
+    text-align: center;
+}
+.aaa{
+    width: 25%; height: 10px;
+}

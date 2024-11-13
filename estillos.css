@@ -1,0 +1,88 @@
+.body1 {
+    background-color: rgba(249, 249, 179, 0.748);
+}
+.body2{
+    background-color: rgba(179, 249, 192, 0.748);
+}
+.body3{
+    background-color: rgba(240, 17, 17, 0.748);
+}
+.body4{
+    background-color: rgba(77, 179, 242, 0.748);
+}
+.aaa{
+    color: darkgoldenrod;text-align: center; border: 5px solid black; border-radius: 20px; background-color: blanchedalmond; width: 80%;
+}
+.bbb{
+    text-align: center;
+}
+.elementos{
+    text-align: center;background-color: rgb(253, 223, 177); width: 70%;
+}
+.codigo{
+    border: 3px solid rgb(74, 74, 74); text-align: center; border-radius: 50px; background-color: beige; width: 65%;
+}
+.exemplo{
+    border: 2px solid rgb(0, 0, 0); background-color: beige; width: 50%;
+}
+.alterar{
+    border: 2px solid rgb(0, 0, 0); background-color: beige; width: 50%;
+}
+.textos{
+    border: 5px solid rgb(0, 0, 0); background-color: beige;
+}
+.home{
+    text-align: center; 
+    border: 4px solid darkgreen;
+    background-color: beige;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    background-color: darkseagreen;
+
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.centro{
+    text-align: center;
+}
+body{
+    background-color: rgb(76, 136, 8);
+}
+.bodycor{
+    background-color: rgba(33, 91, 22, 0.748);
+}
+.introducao{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige;
+}
+.central{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige; width: 50%;
+}
+.center{
+    text-align: center;
+}
+.aaa{
+    width: 25%; height: 10px;
+}

@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(76, 136, 8);
+}
+.home{
+    text-align: center; 
+    border: 4px solid darkgreen;
+    background-color: beige;
+    color:black;
+    font-size: 40px;
+}
+.esquerda{
+    text-align: left;
+}
+
+.desc{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige; width: 50%;
+    padding: 7%;
+    padding-top: 1%;
+    font-size: 28px;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: darkseagreen;
+
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.centro{
+    text-align: center;
+}
+.bodycor{
+    background-color: rgba(33, 91, 22, 0.748);
+}
+.introducao{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige;
+}
+.central{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige; width: 80%;
+    padding: 7%;
+    padding-top: 1%;
+    font-size: 28px;
+    
+}
+.center{
+    text-align: center;
+}
+.aaa{
+    width: 25%; height: 10px;
+}
+
+
+.tituloN{
+    text-align: center;
+}
+.tabelaN{
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5%;
+    padding: 7%;
+    font-size: 28px;
+    width: 80%;
+    height: 80%;
+    font-size: 2vh;
+}
+.centralimg{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige; width: 80%; height: 20px;
+    font-size: 28px;
+    
+}
+.douglas{
+    border: 4px solid olive;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.divmae{
+    display: flex;
+}
+.bordafoto{
+    text-align: center;
+    border: 5px solid black;
+    background-color: beige;
+    padding-top: 2%;
+   padding-bottom: 2%;
+    margin-left: 8%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 35%;
+    font-size: 2vh;
+    height: 35%;
+}
+.bordanoticia{
+    text-align: center;
+    border: 5px solid black;
+    background-color: beige;
+    padding-top: 2%;
+   padding-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 60%;
+    font-size: 2vh;
+    height: 35%;
+}
+.bordaftnoticia{
+    text-align: center;
+    border: 5px solid black;
+    background-color: beige;
+    padding-top: 2%;
+   padding-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 30%;
+    font-size: 2vh;
+    height: 35%;
+}
+.descdouglas{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige; width: 50%;
+    padding: 7%;
+    padding-top: 1%;
+    font-size: 28px;
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.desctextoprincipal{
+    text-align: center; border: 5px solid ; border-radius: 10px; background-color: beige; width: 50%;
+    padding: 7%;
+    padding-top: 1%;
+    font-size: 28px;
+    width: 100%;
+   
+}
