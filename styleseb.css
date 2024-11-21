@@ -13,8 +13,16 @@
     width: 40px;
     height: 80px;
 }
+
 /*FIMDOINDEX*/
 
+/*ExclusivosHistória*/
+
+.imagemInicialHistória{
+    height: 850px;
+}
+
+/*FimDaHistória*/
 body{
     background-color: rgb(76, 136, 8);
 }
