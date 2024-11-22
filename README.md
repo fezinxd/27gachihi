@@ -21,6 +21,7 @@ Após, temos o título, seguido de ícones de lupas, que representam o aumento o
 acessibilidade por quem possui alguma dificuldade visual.
 Também foi adicionado uma função de modificação de cor de fundo e da cor das fontes, adicionando mais destaques a estas e a links utilizando um 
 botão com o nome  de "Acessibilidade Daltonismo", visando uma melhor utilização do site por pessoas que possuam daltonismo. 
+
 Além disso, o site possui a função de texto em libras, utilizando o Vlibras a fim de que o site possa ser acessado pelo maior número de pessoas.
 Esta página possui uma breve explicação do por quê desta galeria de fotos.
 Para tornar esta página uma galeria de fotos, foram incluídos dois carroséis, um contendo fotos antigas e outro contendo fotos atuais.
