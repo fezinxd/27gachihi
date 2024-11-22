@@ -50,3 +50,27 @@ a Origem do grupo, temos o subtitulo, que apresenta um icone de 1, e nas linhas 
 
 O site termina com a logo do exército, seguida pelo rodapé que está em uma borda verde escura, com o texto em branco. Informando o endereço e o telefone do quartel.
 Foi feito o uso extenso do Bootstrap, e o uso educacional do W3C schools e outros sites para estudo.
+
+
+**Noticias**
+Paginas de noticias
+
+Nas paginas de noticias foram usados os codigos de card do bootstrap
+Para fazer uma semelhança a paginas de noticias comuns
+Tambem utilizado icones para chamar mais atenção junto com botões
+Links dos botões foram utilizados links de paginas reais, mas que não condizem com a data exata
+Utilizou-se tambem botão de alteração de cor da pagina para pessoas daltonicas
+Argumentos como row, col-1, text-bg-primary e outors foram utilizados para a estilização da pagina
+
+A pagina noticia contem 3 variações sendo elas com zoom, e cor alterada para daltonicos, coisas que mudam são:
+font-size:70 ou 80 ou 90px;
+bg-primary;
+text-bg-light;
+
+A pagina noticia é utilizada nas cores verde e verde claro, assim como nas outras para seguir o padrão.
+Em todas as paginas incluimos tambem a opção de acessibilidade para pessoas com deficiencia auditiva colocando um interprete virtual para auxiliar na leitura.
+
+A criação do aplicativo foi feita atraves do site Webtonative, onde colamos o link gerado no github para a geração do app
+La apenas alteramos icone do app e pagina de carregamento.
+
+
