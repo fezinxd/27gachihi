@@ -76,7 +76,8 @@ La apenas alteramos icone do app e pagina de carregamento.
 
 **Alistamento:**
 Foi utilizado um formulario pronto do bootstrap,
-foi alterado o tamanho e o modelo de menu tambem é pronto do bootstrap
+foi alterado o tamanho e o modelo 
+Menu tambem é pronto do bootstrap
 tem modo de acessibilidade igual todos os outros
 
 
