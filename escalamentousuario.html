@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/font/bootstrap-icons.min.css">
     <title>Usuario</title>
 </head>
-<body class="bg-success-subtle">
+<body class="bg-success-subtle" id="paginaExibe">
   <nav class="navbar navbar-expand-lg bg-success-subtle">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img class="botaeb" src="braaaasaoeb.png" alt="" ></a>
@@ -54,82 +54,80 @@
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">OF DIA</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">2º Ten Jean</div>
+        <div id="ROFDIA" class="col-lg-3 border border-2 border-black text-center h3 bg-white"></div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">ADJ OD</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">Marechal Deus da guerra Dallabrida</div>
+        <div id="RADJ" class="col-lg-3 border border-2 border-black text-center h3 bg-white"></div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">CMT GD</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RCMTGD" class="col-lg-3 border border-2 border-black text-center h3 bg-white"></div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">CB GD</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RCBGD" class="col-lg-3 border border-2 border-black text-center h3 bg-white"></div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">GDA</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RGDA" class="col-lg-3 border border-2 border-black text-center h3 bg-white"></div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">ENF</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RENF" class="col-lg-3 border border-2 border-black text-center h3 bg-white"></div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">HTI</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RHTI" class="col-lg-3 border border-2 border-black text-center h3 bg-white"> </div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">SGT D RAN</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RSGTRAN" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">CORNETEIRO</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RCORN" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">MOT DIA</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RMOT" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">SGT DIA BC</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RSGTBC" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">SGT DIA 1ª BO</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RSGT1" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">SGT DIA 2ª BO</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RSGT2" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">CB DIA BC</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RCBBC" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">CB DIA 1ª BO</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RCB1" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">CB DIA 2ª BO</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RCB2" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">PLANTÃO BC</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RPLBC" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">PLANTÃO 1ª BO</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RPL1" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
     <div class="row">
         <div class="offset-lg-3 col-lg-3 border border-5 border-black text-center h1 bg-white">PLANTÃO 2ª BO</div>
-        <div class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
+        <div id="RPL2" class="col-lg-3 border border-2 border-black text-center h3 bg-white">ESCALADO</div>
     </div>
-
-
     <div class="row">
         <div class="text-center mb-3"><button class="btn-info bg-primary"><a href="escalamento.html" class="text-bg-primary h5">ESCALA</a></button></div>
     </div>
@@ -138,5 +136,6 @@
 
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js.js"></script>
 </body>
 </html>
