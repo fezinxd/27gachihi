@@ -4,20 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styleseb.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font/bootstrap-icons.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-success-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login.html"><img class="botaeb" src="braaaasaoeb.png" alt="" ></a>
+          <button class="navbar-toggler fs-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            MENU
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"><h1><i class="bi bi-house-door-fill"></i>  PAGINA INICIAL</h1></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="historia.html"><h1><i class="bi bi-bank2"></i>  HISTORIA</h1></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="fotos2.html"><h1><i class="bi bi-camera-fill"></i>  FOTOS</h1></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="alistamento.html"><h1><i class="bi bi-person-vcard-fill"></i>  ALISTAMENTO</h1></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="noticia.html"><h1><i class="bi bi-newspaper"></i>  NOTICIAS</h1></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="escalamentousuario.html"><h1><i class="bi bi-newspaper"></i>  ADITAMENTO</h1></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
     <form id="cad">
         <div class="mb-3 mt-3">
-            <label for="email">LOGIN:</label>
-            <input type="text" class="form-control" id="login" placeholder="Nome/Número" name="pswd">
+            <label for="email">NOVO LOGIN:</label>
+            <input type="text" class="form-control" id="login" placeholder="Usuario/user" name="pswd">
         </div>
         <div class="mb-3 mt-3">
-            <label for="email">SENHA:</label>
-            <input type="text" class="form-control" id="senha" placeholder="Nome/Número" name="pswd">
+            <label for="email">NOVA SENHA:</label>
+            <input type="text" class="form-control" id="senha" placeholder="Senha/Password" name="pswd">
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+       <button type="submit" class="btn btn-primary" ><a href="login.html">Enviar</a></button>
     </form>
+        </div>
+    <div class="col-2"></div>
     <script src="login.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>

@@ -19,7 +19,10 @@ if(login){
         var loginc=document.getElementById("loginc").value;
         var senhac=document.getElementById("senhac").value;
         if(login2===loginc&&senha2===senhac){
-            alert("acerto mizeravi")
+            var div=document.getElementById("hello").innerHTML="<div class='text-bg-success'> Login efetuado com sucesso. <a class='text-light' href='escalamento.html'>Clique aqui para fazer o aditamento!</a></div>";
+        }
+        else{
+            var div=document.getElementById("hello").innerHTML="<div class='text-bg-danger'>Usuario ou senha incorreto.</div>";  
         }
         
     })
