@@ -22,7 +22,7 @@ if(login){
             var div=document.getElementById("hello").innerHTML="<div class='text-bg-success'> Login efetuado com sucesso. <a class='text-light' href='escalamento.html'>Clique aqui para fazer o aditamento!</a></div>";
         }
         else{
-            var div=document.getElementById("hello").innerHTML="<div class='text-bg-danger'>Usuario ou senha incorreto.</div>";  
+            var div=document.getElementById("hello").innerHTML="<div class='text-bg-danger'>Usuario ou senha incorreto. Caso não tenha login cadastre se <a class='text-primary' href='cadastro.html'>aqui!</a> </div>";  
         }
         
     })
