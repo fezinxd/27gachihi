@@ -5,19 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
+<body class="bg-success-subtle">
+<div class="row">
+    <div class="text-center offset-lg-4 col-lg-4 offset-lg-4 fs-1 border border-0 text-bg-success mt-5 h1">LOGIN</div>
+</div>
+<div class="row">
+   <div class="offset-lg-4 col-lg-4 offset-lg-4 border border-2 border-success text-bg-light"> 
     <form id="login">
         <div class="mb-3 mt-3">
-            <label for="email">LOGIN:</label>
-            <input type="text" class="form-control" id="loginc" placeholder="Nome/Número" name="pswd">
+            <label for="email">Login:</label>
+            <input type="text" class="form-control" id="loginc" placeholder="Insira o seu login" name="pswd">
         </div>
-        <div class="mb-3 mt-3">
-            <label for="email">SENHA:</label>
-            <input type="text" class="form-control" id="senhac" placeholder="Nome/Número" name="pswd">
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Senha:</label>
+            <input type="password" id="senhac" class="form-control" id="exampleInputPassword1" placeholder="Insira sua senha">
+          </div>
+          
+        <button type="submit" class="btn btn-primary text-center w-100">Enviar</button>
+        
     </form>
+    
+
+
+    <a href="cadastro.html"><button  class="btn btn-secondary text-center w-100 mt-2 mb-5">Cadastre-se</button></a>
+    <div id="certol" ></div>
+    
+    </div>
+</div>    
     <script src="login.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
